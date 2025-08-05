@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Personal<span>Portfolio</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Muhammad Saad Qasim</span><br>MERN Stack Developer</h1>
+            <p>I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even if you don't realize it, yes I do.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-outline" id="download-cv">Download CV</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/4.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML/CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>ReactJS</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="88"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Node.js</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Express.js</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>UI Frameworks & Databases</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Tailwind CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Chakra UI</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>MongoDB</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <h2 class="section-title">My Experience</h2>
+        
+        <div class="experience-container">
+            <div class="experience-box">
+                <div class="counter" data-target="1">0</div>
+                <p>Years of Experience</p>
+            </div>
+            <div class="experience-box">
+                <div class="counter" data-target="24">0</div>
+                <p>Projects Completed</p>
+            </div>
+            <div class="experience-box">
+                <div class="counter" data-target="500">0</div>
+                <p>Code Commits</p>
+            </div>
+            <div class="experience-box">
+                <div class="counter" data-target="20">0</div>
+                <p>Technologies Used</p>
+            </div>
+        </div>
+        
+        <div class="work-experience">
+            <h3>Professional Summary</h3>
+            <p>As a MERN stack developer with one year of experience, I have successfully built and deployed multiple web applications using modern technologies. My expertise spans across the entire web development stack, from creating responsive user interfaces with React to designing robust backend systems with Node.js and Express.</p>
+            <p>I specialize in creating efficient RESTful APIs and integrating them with databases like MongoDB and MySQL. I'm proficient in using UI frameworks such as Tailwind CSS, Chakra UI, and Bootstrap to create visually appealing and user-friendly interfaces.</p>
+            <p>My approach combines clean code architecture with efficient problem-solving to deliver high-quality web applications that meet client requirements and exceed expectations.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About Me</h3>
+                <p>I'm a passionate MERN stack developer focused on creating efficient, scalable, and user-friendly web applications. I'm constantly learning new technologies and improving my skills to stay at the forefront of web development.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Saad Qasim. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
